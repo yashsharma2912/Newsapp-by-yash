@@ -9,10 +9,18 @@
 }
 .main-div{
        justify-content: space-between;
-       background-color: rgb(133, 133, 168);
 }
 :root{
     --primary-text : black;
+}
+nav {
+    background-color: #f3faff;
+    box-shadow: 0 0 4px #bbd0e2;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
 }
 .list-item{
     gap: 1.5rem;
