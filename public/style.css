@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+.main-div{
+       justify-content: space-between;
+       background-color: rgb(133, 133, 168);
+}
+:root{
+    --primary-text : black;
+}
+.list-item{
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
