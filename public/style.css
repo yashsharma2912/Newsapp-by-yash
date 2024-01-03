@@ -32,7 +32,19 @@ li{
 a{
     text-decoration: none;
 }
-
+input{
+    position: relative;
+    right: 1rem;
+    width: 20rem;
+    height: 5vh;
+    border-radius: 2px;
+    border:solid black 0.2px;
+}
+button{
+    height: 5vh;
+    width: 5rem;
+    border:solid black 0.2px;
+}
 /*  section 2   */
  
 .card{
