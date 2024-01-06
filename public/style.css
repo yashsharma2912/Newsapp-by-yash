@@ -16,6 +16,7 @@
 body {
     font-family: "Poppins", sans-serif;
     color: var(--primary-text-color);
+    background-color: #f2f3f4;
 }
 
 p {
@@ -25,10 +26,12 @@ p {
 }
 
 a {
+    color: white;
     text-decoration: none;
 }
 
 ul {
+    color: white;
     list-style: none;
 }
 
@@ -44,7 +47,7 @@ ul {
 }
 
 nav {
-    background-color: #f3faff;
+    background-color: #071e2e;
     box-shadow: 0 0 4px #bbd0e2;
     position: fixed;
     top: 0;
@@ -88,11 +91,11 @@ nav {
 }
 
 .news-input {
-    width: 200px;
+    width: 300px;
     height: 100%;
     padding-inline: 12px;
-    border-radius: 4px;
-    border: 2px solid #bbd0e2;
+    border-radius: px;
+ 
     font-family: "Roboto", sans-serif;
 }
 
@@ -101,7 +104,7 @@ nav {
     color: white;
     padding: 8px 24px;
     border: none;
-    border-radius: 4px;
+    border-radius: 2px;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
 }
@@ -126,7 +129,7 @@ main {
     width: 360px;
     min-height: 400px;
     box-shadow: 0 0 4px #d4ecff;
-    border-radius: 4px;
+    border-radius: 7px;
     cursor: pointer;
     background-color: #fff;
     overflow: hidden;
@@ -151,4 +154,17 @@ main {
 
 .news-source {
     margin-block: 12px;
+}
+
+/*  footer */ 
+
+.footer{
+    color: white;
+    display: flex;
+    background-color: #071e2e;
+    height: 10vh;
+    align-items: center;
+}
+.footer h3 {
+    margin-left: 2rem;
 }
